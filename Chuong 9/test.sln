@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{895CDFF0-5A80-4975-B120-4DA54DD443EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{F7299B5C-A747-40F4-A359-3E5E4E403B28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractionDemo", "FractionDemo\FractionDemo.csproj", "{8F339CE7-6905-49C8-BDB4-7B1C15BEA689}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{895CDFF0-5A80-4975-B120-4DA54DD443EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895CDFF0-5A80-4975-B120-4DA54DD443EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895CDFF0-5A80-4975-B120-4DA54DD443EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895CDFF0-5A80-4975-B120-4DA54DD443EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7299B5C-A747-40F4-A359-3E5E4E403B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7299B5C-A747-40F4-A359-3E5E4E403B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7299B5C-A747-40F4-A359-3E5E4E403B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7299B5C-A747-40F4-A359-3E5E4E403B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F339CE7-6905-49C8-BDB4-7B1C15BEA689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F339CE7-6905-49C8-BDB4-7B1C15BEA689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F339CE7-6905-49C8-BDB4-7B1C15BEA689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F339CE7-6905-49C8-BDB4-7B1C15BEA689}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5638F714-A50A-4A74-8942-54EB8807417A}
+	EndGlobalSection
+EndGlobal
