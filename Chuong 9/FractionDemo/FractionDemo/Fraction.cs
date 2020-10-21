@@ -7,6 +7,7 @@ namespace FractionDemo
     public class Fraction
     {
         private int _denominator = 1;
+        private int WholeNumber1;
         public int WholeNumber { set; get; }
         public int Numerator { set; get; }
         public int Denominator
@@ -37,6 +38,12 @@ namespace FractionDemo
             Numerator = numerator;
             Denominator = denominator;
         }
+
+        public Fraction(int WholeNumber1)
+        {
+            // TODO: Complete member initialization
+            this.WholeNumber1 = WholeNumber1;
+        }
         public void Reduce()
         {
             if (WholeNumber == 0)
@@ -54,6 +61,10 @@ namespace FractionDemo
 
         public override string ToString()
         {
+            if (WholeNumber == 0)
+                return string.Format("{0}/{1}", Numerator, Denominator);
+            else if (Numerator == 0)
+                return WholeNumber.ToString();
             return string.Format("{0} {1}/{2}", WholeNumber, Numerator, Denominator);
         }
         private static void QuyDong(Fraction a, Fraction b)
@@ -78,8 +89,22 @@ namespace FractionDemo
             Fraction _b = b.ChuyenHonSoThanhPhanSo();
             QuyDong(_a, _b);
             return new Fraction(_a.Numerator + _b.Numerator, _a.Denominator);
-
         }
+        public void RutGon(Fraction a, Fraction b)
+        {
+            if (WholeNumber == 0)
+            {
+                new Fraction(Numerator, Denominator);
+
+            }
+            if (Numerator == 0)
+            {
+                new Fraction(WholeNumber);
+            }
+        }
+
+
+
 
 
 
@@ -103,5 +128,10 @@ namespace FractionDemo
         }
 
 
+
+        internal void RutGon()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
