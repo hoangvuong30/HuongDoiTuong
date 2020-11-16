@@ -32,6 +32,7 @@ namespace QuanLyHinhHoc
             set { chuVi = value; }
         }
         private double dienTich;
+        private double p;
         public double dT
         {
             get { return dienTich; }
@@ -40,6 +41,12 @@ namespace QuanLyHinhHoc
         public HinhChuNhat()
         {
 
+        }
+
+        public HinhChuNhat(double p)
+        {
+            // TODO: Complete member initialization
+            this.p = p;
         }
         public void Nhap()
         {

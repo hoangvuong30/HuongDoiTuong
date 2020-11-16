@@ -39,14 +39,14 @@ namespace QuanLyHinhHoc
             
 
         }
-        static void DocTuFile()
-        {
-            FileStream fs = new FileStream("data.txt",FileMode.Open);
-            StreamReader sr=new StreamReader(fs,Encoding.UTF8);
-            String doc=sr.ReadToEnd();
-            sr.Close();
-            Console.ReadLine();
-        }
+        //static void DocTuFile()
+        //{
+        //    FileStream fs = new FileStream("data.txt",FileMode.Open);
+        //    StreamReader sr=new StreamReader(fs,Encoding.UTF8);
+        //    String doc=sr.ReadToEnd();
+        //    sr.Close();
+        //    Console.ReadLine();
+        //}
 
 
 
@@ -123,6 +123,11 @@ namespace QuanLyHinhHoc
                 break;
         }
 
+        }
+
+        private static void DocTuFile()
+        {
+            throw new NotImplementedException();
         }
 
     }
